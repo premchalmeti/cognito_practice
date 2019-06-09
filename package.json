@@ -1,0 +1,16 @@
+{
+  "name": "hello_ionic",
+  "version": "1.0.0",
+  "description": "hello world with ionic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "premkumar",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^1.1.28",
+    "aws-amplify-angular": "^3.0.3",
+    "ionic": "^5.0.1"
+  }
+}

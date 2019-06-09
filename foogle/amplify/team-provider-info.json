@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "foogle-dev-20190610035155-authRole",
+            "UnauthRoleArn": "arn:aws:iam::945654102320:role/foogle-dev-20190610035155-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::945654102320:role/foogle-dev-20190610035155-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "foogle-dev-20190610035155-deployment",
+            "UnauthRoleName": "foogle-dev-20190610035155-unauthRole",
+            "StackName": "foogle-dev-20190610035155",
+            "StackId": "arn:aws:cloudformation:us-east-1:945654102320:stack/foogle-dev-20190610035155/ff5a9f90-8b04-11e9-8095-12ff035a5bdc"
+        },
+        "categories": {
+            "auth": {
+                "fooglefa9f2de0": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Welcome to Foogle!
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="jumbotron">
+    <!-- <form (ngSubmit)='login()'>
+      <div class="form-group">
+        <label for="emailtxt">Email</label>
+        <ion-input [(ngModel)]='email' type="cred.email" class="form-control" id="emailtxt" 
+              aria-describedby="emailHelp" name='emailtxt' placeholder="Enter your email address"></ion-input>
+      </div>
+      <div class="form-group">
+        <label for="pwdtxt">Password</label>
+        <ion-input type="password" [(ngModel)]='cred.pwd' name='pwdtxt' class="form-control" id="pwdtxt"
+                  placeholder="Enter your password"></ion-input>
+      </div>
+      <ion-button type="submit">Sign In</ion-button>
+      <ion-button fill='clear' (click)='gotoSignUp()'>New here? Create an account</ion-button>
+    </form> -->
+  
+    <amplify-authenticator></amplify-authenticator>
+  </div>
+</ion-content>
